@@ -1,0 +1,5 @@
+
+- Cómo testarías la aplicación?.
+
+No poseo conocimientos sobre teoría de testing ni herramientas de testeo, como mencioné en la entrevista previa. Se podrían realizar unas pruebas de carga, donde en lugar de tener un vector de Strings como he utilizado en el código, el programa se conecta a una base de datos donde se tienen numerosos productos sin impuesto básico con los cuales comparar y comprobar cómo se comporta el programa ante una mayor cantidad de datos.
+Otra forma sería introducir distintos formatos en los ficheros de entrada ya sea introduciendo algún espacio o cambiando, por ejemplo, la palabra "importado" de lugar. En este caso, el programa no funcionaría correctamente y habría que añadir código.
