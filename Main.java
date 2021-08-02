@@ -132,8 +132,7 @@ public class  Main{
                 
                 /* Cambio del valor de dCosteIVA 0, ya que hay productos que no poseen ningún tipo de IVA. */
                 dCosteIVA = 0;
-               
-                        
+                                
         }
         
         /* Reondeo de los impuestos a 0.05, como se especifica en el enunciado, y de 0.01 al coste total. */
@@ -150,20 +149,7 @@ public class  Main{
         System.out.println("An error occurred.");
         e.printStackTrace();
         }
-        
-        
-        
-    }
     
-    static int FCalculosIVA(String TipoDeImpuesto, float fCosteInicial, int iCantidadDeproducto){
-        if (TipoDeImpuesto == "Importacion"){
-            
-        }
-        if (TipoDeImpuesto == "Primera Necesidad"){
-            
-        }
-        
-        return 1;
     }
     
 }
