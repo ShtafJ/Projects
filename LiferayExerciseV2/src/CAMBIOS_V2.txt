@@ -1,0 +1,14 @@
+
+Modificaciones con respecto a la versión anterior del programa:
+
+	- Se ha añadido control de errores sobre los argumentos de entrada, de forma que 	en el caso de que no haya 2 argumentos, salta una excepción y se para el programa 	de forma controlada.
+	
+	- Se introducen dos ficheros como parámetros de entrada: en primer lugar, un 		fichero con los productos que no tienen IVA tales como libro, alimentos, etc, y en 	segundo lugar el fichero correspondiente al ticket de compra.
+
+	- El fichero con los productos sin IVA contiene los productos separados por 		retorno de carro (el nombre del cada producto en una línea distinta), se lee y se 	guardan los productos en un ArrayList<String>. De esta forma, para comprobar si un 	producto es sin IVA, se llama a la función contains() de la clase ArrayList.
+
+	- Se ha creado una clase llamada Producto donde se almacena cada tipo de producto 	leído del Ticket, es decir, cada línea. Se guardan valores como la cantidad de ese 	producto, si es importado, si tiene IVA, su coste y su IVA.
+
+	- Se han añadido 3 funciones para organizar mejor el código, estas son: 		ObtenerSiEsProductoImportado, ObtenerNombreProdcuto y ObtenerCosteRealProducto.
+
+	- Se ha utilizado dos ficheros mas de pruebas, comprobando que se tiene en cuenta 	la posibilidad de que se compren distintas cantidades de un mismo producto.
